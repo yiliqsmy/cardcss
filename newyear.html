@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="robots" content="all" />
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <meta name="Copyright" content="TENCNET" />
+    <meta name="author" content="Tencent-TGideas" />
+    <meta name="Description" content="峡谷战新春！2018年《英雄联盟》139个英雄+139款皮肤陪你过新春，全区双倍经验、海量新禧福利等你畅享。">
+    <meta name="Keywords" content="英雄联盟,lol,英雄联盟福利,新春,春节活动,lol2018,春节皮肤,限定皮肤">
+    <title>峡谷战新春！2018《英雄联盟》春节巨献-英雄联盟官方网站-腾讯游戏</title>
+
+
+
+    <style>
+        ul {
+            list-style: none;
+        }
+
+        .btn-welfare-join {
+            background: url(images/spr_redpackage.png) no-repeat -1266px -928px;
+            width: 138px;
+            height: 53px
+        }
+
+        .m-step01 .welfare-list {
+            position: relative;
+            height: 640px;
+            margin: -50px 0 0
+        }
+
+        .m-step01 .welfare-list:before {
+            content: "";
+            background: url(images/cloud-1.png) no-repeat;
+            width: 1604px;
+            height: 699px;
+            position: absolute;
+            top: 140px;
+            left: -120px;
+            animation: cloud-floating-up 4s ease-in-out infinite;
+            -webkit-animation: cloud-floating-up 4s ease-in-out infinite
+        }
+
+        .m-step01 .welfare-list li {
+            position: absolute;
+            box-sizing: border-box
+        }
+
+        .m-step01 .welfare-list li i {
+            display: block;
+            transition: all .2s linear
+        }
+
+        .m-step01 .welfare-list li h3 {
+            color: #fff4c7;
+            font-size: 22px;
+            margin: 0 0 8px
+        }
+
+        .m-step01 .welfare-list li .txt1 {
+            color: #ffbb72;
+            font-size: 12px
+        }
+
+        .m-step01 .welfare-list li .txt2 {
+            color: #fff4c7;
+            font-size: 12px
+        }
+
+        .m-step01 .welfare-list li .btn-welfare-join {
+            display: block;
+            margin: 10px 0 0 -4px;
+            position: relative;
+            font-size: 0
+        }
+
+        .m-step01 .welfare-list li .btn-welfare-join.comming {
+            background: url(images/spr_redpackage.png) no-repeat -1266px -1135px;
+            width: 138px;
+            height: 53px;
+            cursor: default
+        }
+
+        .m-step01 .welfare-list .welfare-1 {
+            background: url(images/welfare-1.png) no-repeat;
+            width: 667px;
+            height: 351px;
+            top: 0;
+            left: -40px;
+            padding: 140px 330px 0 74px;
+            text-align: right
+        }
+
+        .m-step01 .welfare-list .welfare-1 .btn-welfare-join {
+            float: right
+        }
+
+        .m-step01 .welfare-list .welfare-1 .welfare-subject-1 {
+            background: url(images/welfare-subject-1.png) no-repeat;
+            width: 445px;
+            height: 351px;
+            position: absolute;
+            top: 0;
+            right: 0
+        }
+
+        .m-step01 .welfare-list .welfare-1 .welfare-cloud-1 {
+            position: absolute;
+            top: 270px;
+            right: 150px
+        }
+
+        .m-step01 .welfare-list .welfare-1:hover .welfare-subject-1 {
+            transform-origin: bottom left;
+            transform: translate(5px, -5px) scale(1.03)
+        }
+
+        .m-step01 .welfare-list .welfare-1:hover .welfare-cloud-1 {
+            transform: translate(-5px, 0)
+        }
+
+        .m-step01 .welfare-list .welfare-2 {
+            background: url(images/welfare-2.png) no-repeat;
+            width: 689px;
+            height: 332px;
+            top: 18px;
+            right: -34px;
+            padding: 124px 80px 0 376px;
+            text-align: left
+        }
+
+        .m-step01 .welfare-list .welfare-2 .welfare-subject-2 {
+            background: url(images/welfare-subject-2.png) no-repeat;
+            width: 506px;
+            height: 336px;
+            position: absolute;
+            top: 0;
+            left: 0
+        }
+
+        .m-step01 .welfare-list .welfare-2 .welfare-cloud-2 {
+            position: absolute;
+            top: 260px;
+            left: 175px
+        }
+
+        .m-step01 .welfare-list .welfare-2:hover .welfare-subject-2 {
+            transform: translate(-10px, 0)
+        }
+
+        .m-step01 .welfare-list .welfare-2:hover .welfare-cloud-2 {
+            transform: translate(-10px, 0)
+        }
+
+        .m-step01 .welfare-list .welfare-3 {
+            background: url(images/welfare-3.png) no-repeat;
+            width: 578px;
+            height: 262px;
+            top: 320px;
+            left: -28px;
+            padding: 80px 260px 0 64px;
+            text-align: right
+        }
+
+        .m-step01 .welfare-list .welfare-3 .btn-welfare-join {
+            float: right
+        }
+
+        .m-step01 .welfare-list .welfare-3 .welfare-subject-3 {
+            background: url(images/welfare-subject-3.png) no-repeat;
+            width: 262px;
+            height: 262px;
+            position: absolute;
+            top: 0;
+            right: 0
+        }
+
+        .m-step01 .welfare-list .welfare-3 .ws-card {
+            display: block;
+            background: url(images/ws-3-card.png) no-repeat;
+            width: 92px;
+            height: 120px;
+            position: absolute;
+            top: 30px;
+            left: 80px;
+            transition: transform .3s linear
+        }
+
+        .m-step01 .welfare-list .welfare-3 .ws-cover {
+            display: block;
+            background: url(images/ws-3-cover.png) no-repeat;
+            width: 228px;
+            height: 243px;
+            position: absolute;
+            top: -10px;
+            left: 34px
+        }
+
+        .m-step01 .welfare-list .welfare-3 .welfare-cloud-3 {
+            position: absolute;
+            top: 210px;
+            right: 80px
+        }
+
+        .m-step01 .welfare-list .welfare-3:hover .welfare-subject-3 {
+            transform: translate(10px, 0) rotate(10deg)
+        }
+
+        .m-step01 .welfare-list .welfare-3:hover .ws-card {
+            -webkit-transform: translateY(-20px);
+            -ms-transform: translateY(-20px);
+            -o-transform: translateY(-20px);
+            transform: translateY(-20px)
+        }
+
+        .m-step01 .welfare-list .welfare-3:hover .welfare-cloud-3 {
+            transform: translate(-10px, 0)
+        }
+
+        .m-step01 .welfare-list .welfare-4 {
+            background: url(images/welfare-4.png) no-repeat;
+            width: 576px;
+            height: 263px;
+            top: 316px;
+            right: 16px;
+            padding: 84px 30px 0 316px;
+            text-align: left
+        }
+
+        .m-step01 .welfare-list .welfare-4 .welfare-subject-4 {
+            background: url(images/frame-bag-normal-s.png) no-repeat 0 0;
+            width: 214px;
+            height: 306px;
+            animation: spring-bag-s 1s steps(11, end) infinite;
+            -webkit-animation: spring-bag-s 1s steps(11, end) infinite;
+            position: absolute;
+            bottom: 30px;
+            left: 86px
+        }
+
+        .m-step01 .welfare-list .welfare-4 .welfare-cloud-4 {
+            position: absolute;
+            top: 202px;
+            left: 158px
+        }
+
+        .m-step01 .welfare-list .welfare-4:hover .welfare-cloud-4 {
+            transform: translate(10px, 0)
+        }
+
+        .m-step01 .welfare-list .welfare-4.on .welfare-subject-4 {
+            background: url(images/welfare-subject-4-on.png) no-repeat;
+            animation: none;
+            -webkit-animation: none
+        }
+
+        .m-step01 .welfare-list .welfare-4:hover .welfare-subject-4 {
+            transform-origin: bottom;
+            animation: tada 2s linear infinite;
+            -webkit-animation: tada 2s linear infinite
+        }
+
+        @-webkit-keyframes spring-bag-s {
+            0% {
+                background-position: 0 0
+            }
+            100% {
+                background-position: -2354px 0
+            }
+        }
+
+        @keyframes spring-bag-s {
+            0% {
+                background-position: 0 0
+            }
+            100% {
+                background-position: -2354px 0
+            }
+        }
+
+        @-webkit-keyframes tada {
+            from {
+                -webkit-transform: scale3d(1, 1, 1);
+                transform: scale3d(1, 1, 1)
+            }
+            10%,
+            5% {
+                -webkit-transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
+                transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg)
+            }
+            15%,
+            25%,
+            35%,
+            45% {
+                -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+                transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg)
+            }
+            20%,
+            30%,
+            40% {
+                -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+                transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg)
+            }
+            100%,
+            50% {
+                -webkit-transform: scale3d(1, 1, 1);
+                transform: scale3d(1, 1, 1)
+            }
+        }
+
+        @keyframes tada {
+            from {
+                -webkit-transform: scale3d(1, 1, 1);
+                transform: scale3d(1, 1, 1)
+            }
+            10%,
+            5% {
+                -webkit-transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
+                transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg)
+            }
+            15%,
+            25%,
+            35%,
+            45% {
+                -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+                transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg)
+            }
+            20%,
+            30%,
+            40% {
+                -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+                transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg)
+            }
+            100%,
+            50% {
+                -webkit-transform: scale3d(1, 1, 1);
+                transform: scale3d(1, 1, 1)
+            }
+        }
+
+        
+
+        .m-step01 a {
+            -webkit-transition: filter .3s, border .3s, color .3s, transform .3s;
+            transition: filter .3s, border .3s, color .3s, transform .3s;
+        }
+
+        .m-step01 a:hover {
+            text-decoration: none;
+            -webkit-filter: brightness(1.2);
+            filter: brightness(1.2)
+        }
+
+        .m-step01 a:active {
+            transform: scale(.94);
+            -webkit-transform: scale(.94);
+            -webkit-filter: brightness(.9);
+            filter: brightness(.9)
+        }
+    </style>
+</head>
+
+<body>
+    <div class="m-step01 ">
+        <ul class="welfare-list">
+            <li class="welfare-1">
+                <i class="welfare-subject-1"></i>
+                <i class="welfare-cloud-1"></i>
+                <h3>齐聚春晖·集卡赢永久皮肤</h3>
+                <p class="txt1">收集春节套牌即可兑换永久皮肤等奖励</p>
+                <p class="txt1">每日进行游戏，登陆活动页面均可获得卡包</p>
+                <a href="http://lol.qq.com/act/a20180112newyear/index.htm" target="_blank" class="btn-welfare-join" onclick="pgvSendClick({hottag:'a20180212spring.index.btn.joinQJCH'})">马上参与</a>
+            </li>
+            <li class="welfare-2">
+                <i class="welfare-subject-2"></i>
+                <i class="welfare-cloud-2"></i>
+                <h3>春晖神女的神秘礼物</h3>
+                <p class="txt1">珍稀守卫限时销售 开启神秘礼物</p>
+                <a href="http://lol.qq.com/act/a20180205newyear/" target="_blank" class="btn-welfare-join" onclick="pgvSendClick({hottag:'a20180212spring.index.btn.joinCHSNDSMLW'})">马上参与</a>
+            </li>
+            <li class="welfare-3">
+                <i class="welfare-subject-3">
+                    <span class="ws-card"></span>
+                    <span class="ws-cover"></span>
+                </i>
+                <i class="welfare-cloud-3"></i>
+                <h3>英雄联盟皮肤红包</h3>
+                <p class="txt1">今年，用皮肤红包给小伙伴拜年吧！</p>
+                <p class="txt1">活动时间：2月8日开启</p>
+                <a href="http://lol.qq.com/act/a20180201redpackage/index.html" target="_blank" class="btn-welfare-join" onclick="pgvSendClick({hottag:'a20180212spring.index.btn.joinYXLMPFHB'})">马上参与</a>
+            </li>
+            <!--加on类表示已领取-->
+            <li class="welfare-4">
+                <i class="welfare-subject-4"></i>
+                <i class="welfare-cloud-4"></i>
+                <h3>新春拜年礼物</h3>
+                <p class="txt1">千万英雄皮肤免费奖励，进入游戏即可领取</p>
+                <p class="txt1">活动时间：2月9日—3月2日</p>
+                <a href="javascript:getLotteryInfo();" class="btn-welfare-join" onclick="pgvSendClick({hottag:'a20180212spring.index.btn.joinXCBNLB'})">马上参与</a>
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>
+<!--[if !IE]>|xGv00|0ca86e13a95d5d21501b1c28ead426a9<![endif]-->
